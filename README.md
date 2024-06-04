@@ -1,4 +1,4 @@
-# AI_Diagnostic_X-Ray
+## AI_Diagnostic_X-Ray
 
 # Using Stanford-AIMI 8b model to Read X-ray and interpret findings.  
 
