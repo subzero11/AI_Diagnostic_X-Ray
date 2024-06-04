@@ -1,5 +1,8 @@
 # AI_Diagnostic_X-Ray
-Read X-ray using AI
+
+#Using Stanford-AIMI 8b model to Read X-ray and interpret findings.  
+
+Note: Prompt here is generalized ("Airways") to keep low latency and demonstrate code functionality.  Can be modified by medical or technically inclined individuals to produce more succinct and elaborate output.  Image is shown below and the code is available in repo.
 
 
 
