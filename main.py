@@ -19,7 +19,7 @@ image_path = "https://upload.wikimedia.org/wikipedia/commons/0/0c/X-ray_of_rib_f
 images = [Image.open(io.BytesIO(requests.get(image_path).content)).convert("RGB")]
 
 # step 4: Generate the Findings section
-prompt = f'Describe "Airway"'
+prompt = f'Describe "Thorax"'
 inputs = processor(images=images, text=f" USER: <s>{prompt} ASSISTANT: <s>", return_tensors="pt").to(device=device, dtype=dtype)
 output = model.generate(**inputs, generation_config=generation_config)[0]
 response = processor.tokenizer.decode(output, skip_special_tokens=True)
